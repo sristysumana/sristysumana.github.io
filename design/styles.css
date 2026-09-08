@@ -229,6 +229,27 @@ cite {
   color: var(--muted);
 }
 
+.jobs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jobs li + li {
+  margin-top: 1.75rem;
+}
+
+.job-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.job-meta {
+  margin: 0.15rem 0 0.55rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
 @media (max-width: 560px) {
   .page {
     width: min(44rem, calc(100% - 2rem));
