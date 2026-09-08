@@ -115,6 +115,10 @@ h1 {
   font-size: 0.95rem;
 }
 
+.contact + .contact {
+  margin-top: 0.4rem;
+}
+
 .contact a,
 .biblio a,
 .talks a {
